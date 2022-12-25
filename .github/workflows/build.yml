@@ -71,6 +71,7 @@ jobs:
     
     - name: Download source code
       run: |
+        cd /home/runner/work
         source halium.env
         mkdir -p $ANDROID_ROOT
         cd $ANDROID_ROOT
